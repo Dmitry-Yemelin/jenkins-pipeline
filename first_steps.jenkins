@@ -1,5 +1,6 @@
 #!groovy
-// Check slave properties - WebServerProd Public IPv4 address  3.237.201.147 (can be changed, verify in AWS console)
+// Check slave properties - WebServerProd Public IPv4 address  3.237.201.147 (can be changed, verify in AWS console) 
+//https://github.com/ksemaev/project_template/blob/master/jenkinsfiles/first_steps.jenkins
 properties([disableConcurrentBuilds()])
 
 pipeline {
